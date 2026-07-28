@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Tables\Columns;
 
 use Filament\Tables\Columns\Column;
-<<<<<<< HEAD
 use Filament\Tables\Table;
 use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
 
@@ -16,10 +15,6 @@ use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
  * otherwise getState() / toEmbeddedHtml() throw
  * "The column [x] is not mounted to a table".
  */
-=======
-use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
-
->>>>>>> provtv/dev
 class GroupColumn extends XotBaseColumn
 {
     /** @var array<int|string, mixed> */
@@ -33,19 +28,6 @@ class GroupColumn extends XotBaseColumn
     protected string $view = 'ui::filament.tables.columns.group';
 
     /**
-<<<<<<< HEAD
-=======
-     * Initialize the component.
-     */
-    protected function setUp(): void
-    {
-        parent::setUp();
-
-        // Component initialization logic
-    }
-
-    /**
->>>>>>> provtv/dev
      * @return array<Column>
      */
     public function getFields(): array
@@ -58,10 +40,6 @@ class GroupColumn extends XotBaseColumn
      */
     public function schema(array $form): static
     {
-<<<<<<< HEAD
-=======
-        // Type-check to ensure all elements are Column instances
->>>>>>> provtv/dev
         $filtered = array_filter($form, static function (mixed $item): bool {
             return $item instanceof Column;
         });
@@ -70,7 +48,6 @@ class GroupColumn extends XotBaseColumn
         $filteredValues = array_values($filtered);
         $this->schema = $filteredValues;
 
-<<<<<<< HEAD
         $this->mountChildrenToTable($this->table);
 
         return $this;
@@ -94,8 +71,4 @@ class GroupColumn extends XotBaseColumn
             $child->table($table);
         }
     }
-=======
-        return $this;
-    }
->>>>>>> provtv/dev
 }
