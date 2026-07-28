@@ -4,7 +4,6 @@ type: report
 tags: [code-quality, phpstan, pest, maintainability]
 module: "UI"
 created: 2026-07-17
-<<<<<<< HEAD
 updated: 2026-07-27
 qmd: "code quality baseline PHPStan Pest strict types Laraxot UI git remote"
 story: STORY-001
@@ -15,24 +14,11 @@ discussions: []
 related:
   - "../../../../docs/stories/STORY-001-code-quality-moduli-temi.md"
   - "../../../../docs/wiki/memories/module-github-remote-discipline.md"
-=======
-updated: 2026-07-17
-qmd: "code quality baseline PHPStan Pest strict types Laraxot UI"
-story: STORY-001
-issues:
-  - "https://github.com/laraxot/base_techplanner_fila5/issues/46"
-discussions:
-  - "https://github.com/laraxot/base_techplanner_fila5/discussions/47"
-related:
-  - "../../../../docs/stories/STORY-001-code-quality-moduli-temi.md"
->>>>>>> 9d09d793 (.)
 ---
 
 # Code Quality Improvement Report — UI
 
 > Baseline statica riproducibile per orientare il miglioramento. I conteggi sono segnali, non sostituiscono PHPStan, Pest o la review del flusso reale.
-
-<<<<<<< HEAD
 
 ## GitHub (repo del componente)
 
@@ -43,8 +29,6 @@ cd laravel/Modules/UI && git remote -v
 
 **Lezione grave:** in un conflitto Git, *entrambe* le parti possono essere sbagliate (`base_techplanner_*` vs `base_workorder_*`). Non scegliere a caso: `git remote -v` nella cartella del modulo/tema.
 
-=======
->>>>>>> 9d09d793 (.)
 ## Baseline
 
 | Indicatore | Valore |
@@ -101,11 +85,7 @@ Rilevazione del 17 luglio 2026 sul working tree locale; esclusi vendor e dipende
 4. **resources/views/components/blocks/pricing/three_tiers_with_feature_comparison.blade.php — file da 86195 byte.** Prima verificare se è sorgente, fixture o artefatto generato. Gli artefatti generati vanno rimossi dal source tree e rigenerati dal build; per sorgenti reali separare per responsabilità mantenendo un solo entrypoint e aggiungere un test/smoke build.
 
 
-<<<<<<< HEAD
 - [x] PHPStan L10 scoped senza errori non giustificati. (Modules 2026-07-27)
-=======
-- [ ] PHPStan L10 scoped senza errori non giustificati.
->>>>>>> 9d09d793 (.)
 - [ ] Pest scoped verde sui flussi critici.
 - [ ] Nessuna nuova estensione Filament diretta o controller FO.
 - [ ] Nessuna nuova business logic in Services/Support.
@@ -114,14 +94,11 @@ Rilevazione del 17 luglio 2026 sul working tree locale; esclusi vendor e dipende
 
 ## Criteri di uscita
 
-<<<<<<< HEAD
 ## Gate PHPStan (2026-07-27)
 
 - `cd laravel && ./vendor/bin/phpstan analyse Modules --memory-limit=-1` → **0 errori**.
 - Themes: solo insieme a Modules — [phpstan-stale-ignore-pattern](../../../../docs/wiki/troubleshooting/phpstan-stale-ignore-pattern.md).
 
-=======
->>>>>>> 9d09d793 (.)
 ## Verifica
 
 Dalla cartella laravel/:
