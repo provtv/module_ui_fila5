@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @php
     declare(strict_types=1);
 
@@ -13,34 +12,17 @@
     $fields = $getFields();
     $record = $getRecord();
 @endphp
-=======
-<?php
-
-declare(strict_types=1);
-
-    $fields = $getFields();
-    $record = $getRecord();
-?>
->>>>>>> provtv/dev
 <div
     {{
         $attributes
             ->merge($getExtraAttributes(), escape: false)
             ->class([
-<<<<<<< HEAD
                 'fi-ta-group flex flex-col gap-1',
                 'px-3 py-4' => ! $isInline(),
-=======
-                'fi-ta-icon flex flex-wrap gap-1.5',
-                'px-3 py-4' => ! $isInline(),
-                //'flex-col' => $isListWithLineBreaks(),
-                'flex-col' => true,
->>>>>>> provtv/dev
             ])
     }}
 >
     @foreach ($fields as $field)
-<<<<<<< HEAD
         @php
             // Children live only in GroupColumn::$schema — mount table + record
             // or getState()/toEmbeddedHtml() throw "column is not mounted to a table".
@@ -57,16 +39,11 @@ declare(strict_types=1);
                 continue;
             }
 
-=======
-     
-        @php
->>>>>>> provtv/dev
             $name = $field->getName();
             $value = $field->getState();
             if ($value === null) {
                 $value = data_get($record, $name);
             }
-<<<<<<< HEAD
 
             $isInteractiveColumn = $field instanceof SelectColumn;
 
@@ -87,17 +64,6 @@ declare(strict_types=1);
                 }
             }
 
-=======
-            // Skip empty values to save space
-            if (empty($value) && $value !== 0 && $value !== '0') {
-                continue;
-            }
-
-            // Format the value for display
-            $formattedValue = $value;
-
-            // Resolve the label leveraging LangServiceProvider auto translations
->>>>>>> provtv/dev
             $rawLabel = $field->getLabel();
 
             if ($rawLabel instanceof \Closure) {
@@ -113,7 +79,6 @@ declare(strict_types=1);
             }
 
             if ($labelText === '') {
-<<<<<<< HEAD
                 $translationKey = 'ui::table.columns.'.$name.'.label';
                 $translated = __($translationKey);
                 $labelText = $translated !== $translationKey
@@ -154,20 +119,5 @@ declare(strict_types=1);
                 @endif
             </div>
         @endif
-=======
-                $translationKey = 'ui::table.columns.' . $name . '.label';
-                $translated = __($translationKey);
-                $labelText = $translated !== $translationKey
-                    ? $translated
-                    : \Illuminate\Support\Str::of((string) $name)->replace('_', ' ')->headline()->value();
-            }
-
-            $displayText = $labelText . ': ' . $formattedValue;
-        @endphp
-        
-            {{ $displayText }}<br/>
-        
-        
->>>>>>> provtv/dev
     @endforeach
 </div>
