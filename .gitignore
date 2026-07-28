@@ -244,3 +244,6 @@ docs/legacy/**
 .vscode/
 .windsurf/
 phpstan*
+
+# MODULE ROOT FORBIDDEN DIRS
+workbench
