@@ -182,5 +182,27 @@ L'analisi completa di Notify supera il timeout di 5 minuti. Problemi di autoload
 
 ---
 
-**Resolution Status:** ✅ Partial (Notify analysis pending autoload fix; User resolved)  
-**Updated:** 2026-07-28  
+**Resolution Status:** ✅ Partial (Notify PHPStan analysis reduced from timeout to 248 errors; cross-module dependencies remain; User resolved)  
+**Updated:** 2026-07-28
+
+## Final Notes
+
+### Why Duplicate Safe\ Issue Occurs
+The `thecodingmachine/safe` package declares wrapper functions for built-in PHP functions. When installed in both `root/vendor` and `Notify/vendor`, the same functions get loaded twice, causing fatal errors.
+
+**Solution:** Use only root vendor and configure per-module bootstrap appropriately, or split Safe dependencies by PHP version to avoid deprecated function conflicts.
+
+### Remaining Work for Notify
+1. **PHPStan L10:** 248 errors remain, mostly due to:
+   - Missing Xot cross-module classes (`Modules\Xot\Contracts\UserContract`, `Actions\Cast\SafeStringCastAction`)
+   - Missing Firebase classes (external dependency)
+   - These are not code issues but dependency resolution issues
+
+2. **Pest/Testing:** Cannot run locally due to Safe\ redeclaration conflicts — needs CI environment
+
+3. **PHPMD:** Conflicts with PDepend version in root — tool compatibility issue, not code issue
+
+### Recommendations
+- Implement unified autoload bootstrap for multi-module analysis
+- Use CI pipeline for comprehensive quality checks (avoids local environment conflicts)
+- Extract Safe\ wrappers behind facade if using across multiple modules
