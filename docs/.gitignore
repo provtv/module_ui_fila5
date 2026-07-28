@@ -21,3 +21,9 @@ phpstan-fixes-january-2025.md
 notify-user-git-push-resolution-2026-07-28.md
 phpstan-fixes-gennaio-2025.md
 redundancy-audit-2026-05-21.md
+
+# No numbered .md duplicates (rule: docs/wiki/rules/no-numbered-filenames.md)
+*-[0-9].md
+*-[0-9][0-9].md
+*_[0-9].md
+*_[0-9][0-9].md
