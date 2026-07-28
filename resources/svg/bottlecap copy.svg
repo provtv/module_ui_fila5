@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
  "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
@@ -75,3 +76,8 @@ m-246 -11 c29 -15 30 -19 30 -81 l0 -66 -32 20 c-43 26 -95 34 -137 22 -19 -5
 385 -403 689 35 127 109 230 219 306 103 70 88 108 -15 40z"/>
 </g>
 </svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:5265234fd67757b4a5872b520a9a1d497f5ed80ffeb699ad5cb52f990383436d
+size 5351
+>>>>>>> provtv/dev
