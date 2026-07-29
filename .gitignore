@@ -243,8 +243,18 @@ docs/legacy/**
 .devcontainer/
 .vscode/
 .windsurf/
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> provtv/dev
 phpstan*
 
 # MODULE ROOT FORBIDDEN DIRS
 workbench
+<<<<<<< HEAD
 docs/**/*-[0-9].md
+=======
+=======
+>>>>>>> provtv/dev
+docs/**/*-[0-9].md
+>>>>>>> provtv/dev
