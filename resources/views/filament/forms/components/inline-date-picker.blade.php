@@ -15,7 +15,7 @@ declare(strict_types=1);
 @php
     $statePath = $getStatePath();
     $calendarData = $calendarData ?? [];
-    $currentValue = $currentValue ?? null;
+    $currentValue = $currentValue;
     $enabledDates = $enabledDates ?? collect();
     $currentViewMonth = $currentViewMonth ?? now()->format('Y-m');
     $monthName = $monthName ?? 'Loading...';

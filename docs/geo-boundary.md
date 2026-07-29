@@ -45,7 +45,6 @@ Quindi in UI non devono restare neanche fallback/null-object “per quando Geo m
 3. Eliminato `LocationSelector.php` attivo (non reintrodurre come “null-adapter”).
 4. Rimosso da `UIServiceProvider` il `bindIf` / registrazione verso null-adapters Geo.
 5. Canon aggiornato qui + [second-brain.md](./second-brain.md) + [wiki/concepts/ui-geo-boundary-contracts.md](./wiki/concepts/ui-geo-boundary-contracts.md).
-6. Push dual-remote (`laraxot` + `provtv`) a tip `b874935` — vedi [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md) e [multi-org-sync-laraxot-provtv.md](./multi-org-sync-laraxot-provtv.md).
 
 **Anti-pattern:** ricreare contract+null in UI “perché Geo manca”. Senza Geo non serve il layer.
 

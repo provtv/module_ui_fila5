@@ -1586,7 +1586,6 @@ laravel/Modules/UI/
 - [git-merge-conflict-inventory-1.md](./wiki/troubleshooting/git-merge-conflict-inventory-1.md)
 - [git-merge-conflict-inventory-2026-04-28.deprecated.md](./wiki/troubleshooting/git-merge-conflict-inventory-2026-04-28.deprecated.md)
 - [git-merge-conflict-inventory.md](./wiki/troubleshooting/git-merge-conflict-inventory.md)
-- [git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md)
 - [module-theme-root-hygiene.md](./wiki/troubleshooting/module-theme-root-hygiene.md)
 - [phpstan-fixes-1.md](./wiki/troubleshooting/phpstan-fixes-1.md)
 - [phpstan-fixes-2026-05-06.deprecated.md](./wiki/troubleshooting/phpstan-fixes-2026-05-06.deprecated.md)
