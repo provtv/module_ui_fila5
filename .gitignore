@@ -243,3 +243,8 @@ docs/legacy/**
 .devcontainer/
 .vscode/
 .windsurf/
+phpstan*
+
+# MODULE ROOT FORBIDDEN DIRS
+workbench
+docs/**/*-[0-9].md
