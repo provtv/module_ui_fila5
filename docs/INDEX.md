@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: UI Module — Documentazione
 module: UI
@@ -442,16 +441,6 @@ laravel/Modules/UI/
 **Last Updated**: 2026-07-28  
 **Status**: Approved for consolidation  
 **Next Steps**: Create PATTERNS.md and TROUBLESHOOTING.md with UI-specific content
-=======
-# Documentation Index
-
-## actions
-
-- [table-layout-toggle-1.md](./actions/table-layout-toggle-1.md)
-- [table-layout-toggle.md](./actions/table-layout-toggle.md)
-
-## architecture
->>>>>>> provtv/dev
 
 - [component-registration.md](./architecture/component-registration.md)
 - [filament-pages-structure.md](./architecture/filament-pages-structure.md)
@@ -1602,4 +1591,3 @@ laravel/Modules/UI/
 - [phpstan-fixes-1.md](./wiki/troubleshooting/phpstan-fixes-1.md)
 - [phpstan-fixes-2026-05-06.deprecated.md](./wiki/troubleshooting/phpstan-fixes-2026-05-06.deprecated.md)
 - [phpstan-fixes.md](./wiki/troubleshooting/phpstan-fixes.md)
-
