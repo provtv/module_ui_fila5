@@ -18,9 +18,33 @@ The `UI` module, while concise in its service provider, embodies several key des
 *   **Component-Driven UI Development:** The module's philosophy strongly advocates for a component-driven approach to UI development. It aims to make individual UI elements (like buttons, forms, navigation items) reusable, easily discoverable, and independently manageable, fostering consistency and accelerating frontend development.
 *   **Separation of Concerns for the Presentation Layer:** It strictly enforces the principle of separating UI-related concerns from business logic. This makes the UI layer more independent, easier to manage, test, and evolve without impacting the application's core functionalities.
 *   **Architectural Conformity and Consistency (`Xot` Alignment):** The module's adherence to `XotBaseServiceProvider` signifies its commitment to the project's overarching modular architecture. It operates in harmony with other modules, benefiting from `Xot`'s established patterns without needing to redefine them.
+<<<<<<< HEAD
 *   **"Politics" (UI Standardization and Governance):** The "politics" of this module revolve around establishing and enforcing UI standardization across the entire application. It dictates the patterns for creating, organizing, and consuming reusable UI components, thereby ensuring a consistent and predictable user experience and streamlining frontend governance.
 *   **"Religion" (User Experience as the Ultimate Priority):** The "religion" here is a fundamental belief in the paramount importance of a consistent, intuitive, and aesthetically pleasing user experience. The module is built on the principle that a well-structured and thoughtfully designed UI is key to user satisfaction, adoption, and long-term retention.
 *   **"Zen" (Harmonious and Predictable User Interface):** The "zen" of the `UI` module is to provide a harmonious, predictable, and delightful user interface. It aims for a state where users can effortlessly interact with the application, finding familiarity and ease of use in every interaction. For developers, it fosters a calm environment where new features can be built confidently using a consistent set of UI components, creating an intuitive and visually appealing digital environment.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+*   **"Politics" (UI Standardization and Governance):** The "politics" of this module revolve around establishing and enforcing UI standardization across the entire application. It dictates the patterns for creating, organizing, and consuming reusable UI components, thereby ensuring a consistent and predictable user experience and streamlining frontend governance.
+*   **"Religion" (User Experience as the Ultimate Priority):** The "religion" here is a fundamental belief in the paramount importance of a consistent, intuitive, and aesthetically pleasing user experience. The module is built on the principle that a well-structured and thoughtfully designed UI is key to user satisfaction, adoption, and long-term retention.
+*   **"Zen" (Harmonious and Predictable User Interface):** The "zen" of the `UI` module is to provide a harmonious, predictable, and delightful user interface. It aims for a state where users can effortlessly interact with the application, finding familiarity and ease of use in every interaction. For developers, it fosters a calm environment where new features can be built confidently using a consistent set of UI components, creating an intuitive and visually appealing digital environment.
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+*   **"Politics" (UI Standardization and Governance):** The "politics" of this module revolve around establishing and enforcing UI standardization across the entire application. It dictates the patterns for creating, organizing, and consuming reusable UI components, thereby ensuring a consistent and stable user experience and streamlining frontend governance.
+*   **"Religion" (User Experience as the Ultimate Priority):** The "religion" here is a fundamental belief in the paramount importance of a consistent, intuitive, and aesthetically pleasing user experience. The module is built on the principle that a well-structured and thoughtfully designed UI is key to user satisfaction, adoption, and long-term retention.
+*   **"Zen" (Harmonious and stable User Interface):** The "zen" of the `UI` module is to provide a harmonious, stable, and delightful user interface. It aims for a state where users can effortlessly interact with the application, finding familiarity and ease of use in every interaction. For developers, it fosters a calm environment where new features can be built confidently using a consistent set of UI components, creating an intuitive and visually appealing digital environment.
+=======
+*   **"Politics" (UI Standardization and Governance):** The "politics" of this module revolve around establishing and enforcing UI standardization across the entire application. It dictates the patterns for creating, organizing, and consuming reusable UI components, thereby ensuring a consistent and predictable user experience and streamlining frontend governance.
+*   **"Religion" (User Experience as the Ultimate Priority):** The "religion" here is a fundamental belief in the paramount importance of a consistent, intuitive, and aesthetically pleasing user experience. The module is built on the principle that a well-structured and thoughtfully designed UI is key to user satisfaction, adoption, and long-term retention.
+*   **"Zen" (Harmonious and Predictable User Interface):** The "zen" of the `UI` module is to provide a harmonious, predictable, and delightful user interface. It aims for a state where users can effortlessly interact with the application, finding familiarity and ease of use in every interaction. For developers, it fosters a calm environment where new features can be built confidently using a consistent set of UI components, creating an intuitive and visually appealing digital environment.
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 
 ## 🤝 Business Logic (Supporting Role - User Experience & Branding)
 
@@ -42,7 +66,25 @@ The `UI` module, as the guardian of the application's user interface, can signif
 *   **Component-Driven UI Development:** MCPs provide tools to inspect and validate UI component registrations, view paths, and associated assets. Filesystem MCP is crucial for verifying the physical presence and structure of Blade components and their styles/scripts.
 *   **Separation of Concerns for the Presentation Layer:** By providing intelligent access to UI resources, MCPs can help ensure that UI logic remains distinct from business logic, promoting cleaner code and easier maintenance.
 *   **Developer Experience (DX) Enhancement:** For frontend developers, quickly inspecting loaded UI components, debugging Livewire interactions, or validating asset loading via Laravel Boost or Filesystem MCP can significantly accelerate development and debugging cycles. Playwright/Puppeteer MCPs are invaluable for visual regression testing and UI automation.
+<<<<<<< HEAD
 *   **"Zen" (Harmonious and Predictable User Interface):** MCPs contribute to this zen by making UI component management more transparent, verifiable, and manageable, leading to a calmer and more confident development and operational environment for the user interface.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+*   **"Zen" (Harmonious and Predictable User Interface):** MCPs contribute to this zen by making UI component management more transparent, verifiable, and manageable, leading to a calmer and more confident development and operational environment for the user interface.
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+*   **"Zen" (Harmonious and stable User Interface):** MCPs contribute to this zen by making UI component management more transparent, verifiable, and manageable, leading to a calmer and more confident development and operational environment for the user interface.
+=======
+*   **"Zen" (Harmonious and Predictable User Interface):** MCPs contribute to this zen by making UI component management more transparent, verifiable, and manageable, leading to a calmer and more confident development and operational environment for the user interface.
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 
 ### Key MCPs for `UI`'s Operations:
 

@@ -1,3 +1,64 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# UI - Product Strategy
+
+> Strategia prodotto. Modulo.
+> Allineamento strategico stimato: 71%.
+
+## Missione
+
+Portare **UI** a uno stato in cui il progetto ottiene un vantaggio netto e misurabile su questa area: design system e componenti UI riusabili.
+
+## Problema da risolvere
+
+- chiarire il ruolo del componente nel sistema
+- evitare sovrapposizioni con altri moduli o temi
+- rendere il valore del componente esplicito e verificabile
+
+## Principi strategici
+
+- DRY: riuso prima di duplicare
+- KISS: superfici semplici e veritiere
+- truth over demo: nessuna feature solo apparente
+- docs come interscambio tra agenti AI
+
+## Scelte strategiche
+
+- concentrare gli investimenti sui gap P0 e P1
+- misurare il progresso con percentuali e quality gates
+- collegare ogni evoluzione a issue, discussion e test
+
+## Cosa non fare
+
+- aggiungere feature cosmetiche prima del core
+- introdurre stack o dipendenze senza ownership chiara
+- lasciare zone grigie tra codice reale e documento di prodotto
+
+## Metriche strategiche
+
+| Area | Target |
+|------|--------|
+| Chiarezza di scope | 100% |
+| Aderenza docs-codice | > 90% |
+| Gap P0 aperti | < 10% |
+
+## Collegamenti
+
+- [PRD](prd.md)
+- [Product Roadmap](product-roadmap.md)
+- [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
+
+## Regola architetturale
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
 # UI Module - Product Strategy
 
 **Module:** UI  
@@ -88,4 +149,75 @@ Easy to use and extend.
 
 ---
 
+<<<<<<< HEAD
 *Last Updated: March 12, 2026*
+=======
+<<<<<<< HEAD
+*Last Updated: March 12, 2026*
+=======
+# UI - Product Strategy
+
+**Module:** UI  
+**Version:** 1.0.0  
+**Last Updated:** March 12, 2026  
+**Owner:** Product Team
+
+---
+
+## Executive Summary
+
+The UI module provides a comprehensive design system and component library, enabling consistent, accessible, and beautiful user interfaces across the entire platform.
+
+---
+
+## Market Analysis
+
+### TAM / SAM / SOM
+
+| Segment | TAM | SAM | SOM (2028) |
+|---------|-----|-----|------------|
+| **Design Systems** | $5B | $500M | $25M |
+| **Component Libraries** | $3B | $300M | $15M |
+| **Total** | $8B | $800M | $40M |
+
+---
+
+## Strategic Pillars
+
+### Pillar 1: Consistency
+One design language everywhere.
+
+### Pillar 2: Accessibility
+Inclusive by default.
+
+### Pillar 3: Performance
+Fast, efficient components.
+
+### Pillar 4: Developer Experience
+Easy to use and extend.
+
+---
+
+## Go-to-Market Strategy
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+
+- Action-first: niente generic `Services` per la business logic
+- Standard operativo: `spatie/laravel-queueable-action`
+- Convenzione: Action con metodo `execute()` e dispatch tramite container
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+*Last Updated: March 12, 2026*
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

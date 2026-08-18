@@ -5,8 +5,13 @@ tags: [chartjs, datalabels, multiple, labels]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "chartjs-datalabels-multiple-labels-complete-guide guida completa: multiple labels con chartjs-plugin-datalabels in filament 5.x (modulo ui)"
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
 related:
   - "./chartjs-plugin-datalabels-filament5.md"
   - "./export-strategy.md"
@@ -597,7 +602,25 @@ protected function getOptions(): array
 
 - [Guida Completa Chart Module](../../chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
 - [Filament 5.x Installation Guide](../../chart/docs/filament-5-installation-guide.md)
+<<<<<<< HEAD
 - [SimpleChartWidget con Sfondi](../../Quaeris/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [SimpleChartWidget con Sfondi](../../Quaeris/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+- [SimpleChartWidget con Sfondi](../../modulo questionari/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
+=======
+- [SimpleChartWidget con Sfondi](../../Quaeris/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 
 ### Documentazione Ufficiale
 
@@ -608,4 +631,22 @@ protected function getOptions(): array
 
 **Versione:** 1.0  
 **Ultimo Aggiornamento:** Gennaio 2026  
+<<<<<<< HEAD
 **Mantenuto da:** Quaeris Development Team
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+**Mantenuto da:** Quaeris Development Team
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+**Mantenuto da:** modulo questionari Development Team
+=======
+**Mantenuto da:** Quaeris Development Team
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

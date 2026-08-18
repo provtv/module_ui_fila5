@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 module: theme
 topic: .gitignore
@@ -6,6 +7,8 @@ canonical: ../../../Themes/docs/shared-components/.gitignore-Modules
 
 See canonical documentation: ../../../Themes/docs/shared-components/.gitignore-Modules
 agentdb.rvf
+=======
+>>>>>>> 92912795 (.)
 phpstan-corrections-gennaio-2025.md
 translations-update-january-2026.md
 git-push-recovery-2026-07-28.md

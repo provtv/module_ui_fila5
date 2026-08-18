@@ -5,8 +5,13 @@ tags: [filament, components]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament-components utilizzo dei componenti blade di filament"
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
 related:
   - "./component-registration.md"
 ---
@@ -55,7 +60,25 @@ Frontoffice senza Livewire dedicato — pattern [Alpine](https://filamentphp.com
 </x-filament::tabs>
 ```
 
+<<<<<<< HEAD
 Caso Fixcity `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Caso <nome progetto> `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+Caso progetto corrente `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
+=======
+Caso <nome progetto> `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 
 ## Esempi di utilizzo
 

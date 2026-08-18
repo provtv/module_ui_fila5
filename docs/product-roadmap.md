@@ -1,3 +1,56 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# UI - Product Roadmap
+
+> Documento vivente. Modulo.
+> Maturita' stimata: 71% implementato, 29% gap residuo.
+
+## Visione di avanzamento
+
+Questo roadmap traduce il PRD in sequenza di rilascio per **UI**, che nel progetto copre: design system e componenti UI riusabili.
+
+## Orizzonte 0-30 giorni
+
+- chiudere i gap P0 descritti in [PRD](prd.md)
+- riallineare codice, test e documentazione
+- rimuovere le ambiguita' tra stato reale e stato percepito
+
+## Orizzonte 30-90 giorni
+
+- consolidare test, osservabilita' e metriche
+- completare le superfici utente o admin critiche
+- ridurre le dipendenze manuali o i fallback fragili
+
+## Orizzonte 90-180 giorni
+
+- estendere le capacita' avanzate solo dopo convergenza del core
+- migliorare UX, automazioni e operativita'
+
+## Milestone
+
+### M1 - Convergenza Core
+- focus: contratto funzionale minimo affidabile
+- target completamento: 80%
+
+### M2 - Superfici Vere
+- focus: UI, API e processi allineati al backend reale
+- target completamento: 90%
+
+### M3 - Eccellenza Operativa
+- focus: qualita', osservabilita', performance e governance
+- target completamento: 95%+
+
+## Dipendenze
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
 # UI Module - Product Roadmap
 
 **Module:** UI  
@@ -100,4 +153,81 @@ To create a **unified, beautiful, and accessible design system** that ensures co
 
 ---
 
+<<<<<<< HEAD
 *Last Updated: March 12, 2026*
+=======
+<<<<<<< HEAD
+*Last Updated: March 12, 2026*
+=======
+# UI - Product Roadmap
+
+**Module:** UI  
+**Version:** 1.0.0  
+**Last Updated:** March 12, 2026  
+**Owner:** Product Team  
+**Status:** In Development
+
+---
+
+## Vision Statement
+
+To create a **unified, beautiful, and accessible design system** that ensures consistent, high-quality user experiences across the entire platform while enabling rapid development and brand coherence.
+
+### Vision Pillars
+
+1. **Consistency:** Unified design language
+2. **Accessibility:** WCAG 2.1 AA compliance
+3. **Performance:** Fast, responsive interfaces
+4. **Flexibility:** Customizable components
+5. **Documentation:** Comprehensive guides
+
+---
+
+## Quarterly Timeline (2026)
+
+### Q1 2026 - Foundation
+- Design tokens
+- Core components
+- Basic layout system
+
+### Q2 2026 - Expansion
+- Advanced components
+- Theme system
+- Responsive utilities
+
+### Q3 2026 - Accessibility
+- ARIA implementation
+- Keyboard navigation
+- Screen reader support
+
+### Q4 2026 - Intelligence
+- Component analytics
+- Usage optimization
+- AI-assisted design
+
+---
+
+## Now / Next / Later
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+
+- [PRD](prd.md)
+- [Product Strategy](product-strategy.md)
+- [Sprint Planning Meeting](sprint-planning-meeting.md)
+- [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+*Last Updated: March 12, 2026*
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

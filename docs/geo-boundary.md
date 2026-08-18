@@ -21,7 +21,11 @@ Quel dominio vive in `Modules/Geo` (quando il progetto lo include), **mai** in `
 
 Direzione dipendenze: **Geo → UI** (Geo può usare primitive UI). Mai il contrario.
 
+<<<<<<< HEAD
 ## Questo progetto (`base_ptvx_fila5`)
+=======
+## Questo progetto (`<nome repository>`)
+>>>>>>> 92912795 (.)
 
 `laravel/Modules/Geo` **non esiste** e **non deve essere reintrodotto** senza decisione esplicita.
 Quindi in UI non devono restare neanche fallback/null-object “per quando Geo manca”: senza Geo non serve il layer.
@@ -45,6 +49,26 @@ Quindi in UI non devono restare neanche fallback/null-object “per quando Geo m
 3. Eliminato `LocationSelector.php` attivo (non reintrodurre come “null-adapter”).
 4. Rimosso da `UIServiceProvider` il `bindIf` / registrazione verso null-adapters Geo.
 5. Canon aggiornato qui + [second-brain.md](./second-brain.md) + [wiki/concepts/ui-geo-boundary-contracts.md](./wiki/concepts/ui-geo-boundary-contracts.md).
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+6. Push dual-remote (`laraxot` + `provtv`) a tip `b874935` — vedi [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md) e [multi-org-sync-laraxot-provtv.md](./multi-org-sync-laraxot-provtv.md).
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+6. Push dual-remote (`laraxot` + `provtv`) a tip `b874935` — vedi [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md) e [multi-org-sync-laraxot-provtv.md](./multi-org-sync-laraxot-provtv.md).
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 
 **Anti-pattern:** ricreare contract+null in UI “perché Geo manca”. Senza Geo non serve il layer.
 

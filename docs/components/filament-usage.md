@@ -5,8 +5,13 @@ tags: [filament, usage]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament-usage utilizzo dei componenti filament nel progetto"
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
 related:
   - "./address-field-1.md"
   - "./address-field.md"

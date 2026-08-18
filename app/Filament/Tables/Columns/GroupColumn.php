@@ -64,7 +64,10 @@ class GroupColumn extends XotBaseColumn
     private function mountChildrenToTable(?Table $table): void
     {
         if (null === $table) {
+<<<<<<< HEAD
             return;
+=======
+>>>>>>> 92912795 (.)
         }
 
         foreach ($this->schema as $child) {

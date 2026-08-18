@@ -35,6 +35,7 @@ describe('Component Model', function (): void {
     test('can be instantiated', function (): void {
         /** @phpstan-ignore-next-line class.notFound (Component model absent from artifact set) */
         $component = new Component();
+<<<<<<< HEAD
         /* @phpstan-ignore-next-line class.notFound (Component model absent from artifact set) */
         Assert::assertInstanceOf(Component::class, $component);
     });
@@ -42,6 +43,8 @@ describe('Component Model', function (): void {
     test('has fillable attributes', function (): void {
         /** @phpstan-ignore-next-line class.notFound (Component model absent from artifact set) */
         $component = new Component();
+=======
+>>>>>>> 92912795 (.)
         $expected = [
             'name', 'theme_id', 'is_active', 'version', 'dependencies',
             'template', 'is_cacheable', 'cache_ttl', 'validation_rules',
